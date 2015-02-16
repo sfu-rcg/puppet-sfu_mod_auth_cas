@@ -46,7 +46,7 @@ class sfu_mod_auth_cas (
       concat::fragment { 'auth_cas.conf.base':
         target  => $auth_cas_conf,
         order   => 05,
-        content => template('sfu_mod_auth_cas_sfu/auth_cas.conf.erb'),
+        content => template('sfu_mod_auth_cas/auth_cas.conf.erb'),
       }
       
       file { $cas_cookie_path:

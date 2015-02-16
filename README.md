@@ -5,6 +5,7 @@ Manages the SFU flavour of mod_auth_cas for Apache on CentOS.
 
 ### Dependencies
 
+* manually compiled mod_auth_cas
 * https://forge.puppetlabs.com/maestrodev/wget
 
 

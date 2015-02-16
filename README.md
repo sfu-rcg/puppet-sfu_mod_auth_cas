@@ -3,6 +3,11 @@
 Manages the SFU flavour of mod_auth_cas for Apache on CentOS.
 
 
+### Dependencies
+
+* https://forge.puppetlabs.com/maestrodev/wget
+
+
 ### Usage
 
 ```

@@ -55,6 +55,11 @@ URL of current ThawtePremiumServerBundleCA.pem.
 
 CASCookiePath for mod_auth_cas, which insists on a trailing slash here. Default: /var/cascookies/
 
+**cas_root_proxied_as**
+
+CASRootProxiedAs for mod_auth_cas, for internal web servers behind e.g., load balancers.
+
+
 Other mod_auth_cas parameters you can override:
 cas_login_url
 cas_validate_url

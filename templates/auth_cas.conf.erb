@@ -7,4 +7,5 @@
       CASValidateURL <%= @cas_validate_url %>
       CASTicketsURL <%= @cas_tickets_url %>
       CASCookiePath <%= @cas_cookie_path %>
+      <% if @cas_root_proxied_as %>CASRootProxiedAs <%= @cas_root_proxied_as %><% end %>
  </IfModule>

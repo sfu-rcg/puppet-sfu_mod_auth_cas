@@ -9,6 +9,7 @@ class sfu_mod_auth_cas (
   $cas_login_url           = 'https://cas.sfu.ca/cas/login',
   $cas_validate_url        = 'https://cas.sfu.ca/cas/serviceValidate',
   $cas_tickets_url         = 'https://cas.sfu.ca/cas/rest/v1/tickets',
+  $cas_root_proxied_as     = undef,
   $cas_allow_wildcard_cert = 'Off',
   $cas_validate_server     = 'On',
   ) {

@@ -1,0 +1,10 @@
+ <IfModule mod_auth_cas.c>
+      CASVersion 2
+      CASValidateServer <%= @cas_validate_server %>
+      CASCertificatePath <%= @ca_cert_bundle_path %>
+      CASAllowWildcardCert <%= @cas_allow_wildcard_cert %>
+      CASLoginURL <%= @cas_login_url %>
+      CASValidateURL <%= @cas_validate_url %>
+      CASTicketsURL <%= @cas_tickets_url %>
+      CASCookiePath <%= @cas_cookie_path %>
+ </IfModule>

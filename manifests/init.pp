@@ -27,13 +27,15 @@ class sfu_mod_auth_cas (
         mode    => '0644',
         owner   => 'root',
         group   => 'root',
-      }
+        notify  => Service['httpd']
+	  }
 
       concat { $auth_cas_load:
         warn    => true,
         mode    => '0644',
         owner   => 'root',
         group   => 'root',
+        notify  => Service['httpd']
       }
 
       
